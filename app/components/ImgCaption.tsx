@@ -121,7 +121,7 @@ export default function ImgCaption() {
           
           <div className='flex justify-center'>
             <button type="submit" className='p-2 bg-sky-600 rounded-md mb-4'>
-              Ask ChatGPT To Caption Your Image
+              Ask ChatGPT To Analyze Your Dog
             </button>
           </div> 
 
@@ -129,7 +129,7 @@ export default function ImgCaption() {
 
         {openAIResponse !== "" ?
         <div className="border-t border-gray-300 pt-4">
-          <h2 className="text-xl font-bold mb-2">AI Response</h2>
+          <h2 className="text-xl font-bold mb-2">AI Agent Response</h2>
           <p>{openAIResponse}</p>
         </div>
         :

@@ -25,7 +25,7 @@ export async function POST(request: Request) {
                 role: "user",
                 //@ts-ignore
                 content: [
-                    { type: "text", text: "Create short Ad Copy that triggers an emotional response, based on the iamge,  use the following rules to create. Attention : grab there attention .Interest them a with testimonials , numbers, uses , examples.Desire - make them come to the conclusion that they want this .Action :tell them exactly how to buy , click a button , reply to email.Also ommunicate your message effectively without unnecessary verbosity." },
+                    { type: "text", text: "Whats the image ? Is the animal in healthy condition ? " },
                 { 
             
                     // Whats in the image? Explain
