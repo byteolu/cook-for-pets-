@@ -1,12 +1,16 @@
-import Image from 'next/image'
 import ImgCaption from '../components/ImgCaption'
-import NavBar from '@/components/NavBar';
+import NavigationBar from '../components/NavigationBar';
+import Footer from '../components/Footer';
 
-export default function Home() {
+export default function ImgAnalyzer() {
   return (
     <div>
-      <NavBar />
+      <NavigationBar />
+
+
       <ImgCaption />
+
+      <Footer />
     </div>
   );
 }

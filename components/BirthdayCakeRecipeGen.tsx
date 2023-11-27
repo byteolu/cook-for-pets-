@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, FormEvent } from 'react';
 
-export default function RecipeGenerator() {
+export default function BirthdayCakeRecipeGenerator() {
     const [userInputCondition, setUserInputCondition] = useState('');
     const [userInputCuisine, setUserInputCuisine] = useState('');
     const [recipe, setRecipe] = useState('');
@@ -18,7 +18,7 @@ export default function RecipeGenerator() {
     }
 
     function handleDownload() {
-        downloadRecipe(recipe, "Dog-Friendly-Meal.txt");
+        downloadRecipe(recipe, "Dog-Friendly-Cake-Recipe.txt");
     }
 
     async function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -26,7 +26,7 @@ export default function RecipeGenerator() {
         setIsLoading(true);
 
         try {
-            const response = await fetch('/api/recipeBuilder', {
+            const response = await fetch('/api/birthdaycakeBuilder', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ userInputCondition, userInputCuisine }),
@@ -43,6 +43,7 @@ export default function RecipeGenerator() {
             setIsLoading(false);
         }
     }
+
 
     return (
         <div className="max-w-md mx-auto my-10 p-6 bg-blue rounded-lg shadow-md">
@@ -91,14 +92,15 @@ export default function RecipeGenerator() {
                      {recipe.split('\n').map((step, index) => (
                     <li key={index}>{step}</li>
             ))}
-             <button 
-                        onClick={handleDownload}
+        </ol>
+        <div>
+        <button 
+                   onClick={handleDownload}
                         className="w-full bg-green-500 hover:bg-green-600 text-white font-black py-2 px-4 rounded-md transition duration-200 mt-4"
                     >
                         Download Recipe
                     </button>
-        </ol>
-
+                    </div>
     </div>
 }
 
