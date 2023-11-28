@@ -55,6 +55,8 @@ export default function HeroSection() {
           </Text>
           <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
             <Button
+              as = {"a"}
+              href="https://cook-for-pets.vercel.app/recipe-builder"  
               rounded={'full'}
               size={'lg'}
               fontWeight={'normal'}

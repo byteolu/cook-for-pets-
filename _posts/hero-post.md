@@ -12,7 +12,7 @@ The key is to transition gradually.Start by mixing 25% homemade food with 75% ki
 F.Y.I - Interestingly, my Doberman isn't actually 100 lbs! While my initial goal was to have him above 98lbs, financial constraints and time limitations meant I couldn't fully commit to achieving this target. He currently weighs around 85-90lbs. This personal experience underscores the importance of flexibility and realism in managing our pets' diets and health.
 
 Feeding the right amount is essential. The general guideline suggests feeding about 2-3% of the dog’s body weight per day, split into two or more meals. This means for my 100-pound Doberman, I would start with around 2-3 pounds of homemade food daily. However, this can vary depending on factors like age, metabolism, and activity level. Using a digital scale can help ensure you're serving the right portions or using a Recipe Builder that can do it for you.
-[Try Recipe Builder](https://www.youtube.com).
-## In Summary
+[Try Recipe Builder](https://cook-for-pets.vercel.app/recipe-builder).
+## Summary
 
-In summary, transitioning your Doberman to homemade food involves planning, gradual changes, and constant monitoring to ensure their dietary needs are fully met. It's a journey that requires patience and attention but is incredibly rewarding when you provide a healthier, more tailored diet for your best friend.
+At the end of the day, transitioning your Doberman to homemade food involves planning, gradual changes, and constant monitoring to ensure their dietary needs are fully met. It's a journey that requires patience and attention but is incredibly rewarding when you provide a healthier, more tailored diet for your best friend.
