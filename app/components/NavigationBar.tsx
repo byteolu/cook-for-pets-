@@ -23,7 +23,7 @@ import {
   ChevronRightIcon,
 } from '@chakra-ui/icons'
 
-export default function NavigationBar() {
+export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure()
 
   return (
@@ -51,14 +51,10 @@ export default function NavigationBar() {
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
           <Text
-            textAlign={useBreakpointValue({ base: 'center', md: 'center' })}
+            textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
             color={useColorModeValue('gray.800', 'white')}>
-            
-
-            <Button as ={"a"} href="/" variant={"link"}>
-              Young-Pet-Parents
-            </Button>
+            Young Pet Parents
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -66,8 +62,14 @@ export default function NavigationBar() {
           </Flex>
         </Flex>
 
-        
-      
+        <Stack
+          flex={{ base: 1, md: 0 }}
+          justify={'flex-end'}
+          direction={'row'}
+          spacing={6}>
+          
+          
+        </Stack>
       </Flex>
 
       <Collapse in={isOpen} animateOpacity>
@@ -91,7 +93,7 @@ const DesktopNav = () => {
               <Box
                 as="a"
                 p={2}
-                href={navItem.href ?? '#'}
+                href={navItem.href ?? '/'}
                 fontSize={'sm'}
                 fontWeight={500}
                 color={linkColor}
@@ -139,7 +141,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
         <Box>
           <Text
             transition={'all .3s ease'}
-            _groupHover={{ color: 'blue.400' }}
+            _groupHover={{ color: 'pink.400' }}
             fontWeight={500}>
             {label}
           </Text>
@@ -153,7 +155,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
           justify={'flex-end'}
           align={'center'}
           flex={1}>
-          <Icon color={'blue.400'} w={5} h={5} as={ChevronRightIcon} />
+          <Icon color={'pink.400'} w={5} h={5} as={ChevronRightIcon} />
         </Flex>
       </Stack>
     </Box>
@@ -178,7 +180,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
       <Box
         py={2}
         as="a"
-        href={href ?? '/'}
+        href={href ?? '#'}
         justifyContent="space-between"
         alignItems="center"
         _hover={{
@@ -236,44 +238,26 @@ const NAV_ITEMS: Array<NavItem> = [
       },
       {
         label: 'Blog',
-        subLabel: 'Learn About Your Pup!',
+        subLabel: 'Learn About Raising A Pup In Your 20s',
         href: '/blog',
       },
-      
     ],
   },
   {
     label: 'Pet Parent Tools',
     children: [
       {
-        label: 'Homemade Dog Meals',
+        label: 'Homemade Dog Food',
         subLabel: 'Find your dogs favorite meal!',
-        href: "/recipe-builder",
+        href: '/recipe-builder',
       },
       {
-        label: 'Birthday Cake Recipes ',
-        subLabel: 'An exclusive list of Birthday Treats!',
-        href: "/birthday",
+        label: 'Birthday Cake Recipies',
+        subLabel: 'Build An exclusive list of Birthday Cakes!',
+        href: '/birthday',
       },
-      
     ],
   },
   
 ]
-
-// use to create new labels / nav bar links
-// {
-//  label: 'Blog',
-//  href: '/blog',
-//},
 //
-
-//Removing Img-Analyzer page (analyze pic of dogs body)
-// Due - Page not found error / issues 
-// checked naviagtion component, Page.tsx, config file 
-// removing untill - proof of feature is needed 
-// {
-//  label: 'Healthy Or Not ? ',
-//  subLabel: 'Upload a Pic of your pup and see whats up!',
-//  href: "/img-analyzer",
-// }, 
