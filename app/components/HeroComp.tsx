@@ -42,7 +42,7 @@ export default function HeroSection() {
                 bg: 'blue.400',
                 zIndex: -1,
               }}>
-              Pet Recipes & Handy
+              Dog Recipes & Handy
             </Text>
             <br />
             <Text as={'span'} color={'blue.400'}>
@@ -50,7 +50,7 @@ export default function HeroSection() {
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-          Welcome to the perfect place for pet owners in their 20s and 30s!
+          Welcome to the perfect place for dog owners in their 20s and 30s!
           Discover easy and nutritious recipes for your dog. Plus, we have plenty of helpful tools and resources to simplify your pet parenting journey!
           </Text>
           <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
