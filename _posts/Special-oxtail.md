@@ -7,8 +7,7 @@ author: "Dog Food Sous Chef- lu"
 -----
 
 # From The Kitchen To His Bowl - Oxtail Recipe 
-[CLICK HERE TO SEE THE VIDEO OF ME COOKING THE OXTAIL STEW]
-(https://youtube.com/shorts/pr7MJHNVL-w?si=F-mgcbA_qrkxDlwp)
+[Click For VIDEO OF ME COOKING THE OXTAIL STEW ](https://youtube.com/shorts/9Hqf2vEZNjs?si=N6wQSF9rYWZWExuw)
 
 -------
 **Meal Composition**: Balanced with Protein, Carbohydrates, Vegetables, Fats & Oils, Fiber, Vitamins & Minerals, and Calcium.
@@ -50,7 +49,5 @@ author: "Dog Food Sous Chef- lu"
 
 ## Mine took 2 1/2 Hours to cook** 
 
-[CLICK HERE TO SEE THE VIDEO OF ME COOKING THE OXTAIL STEW]
-(https://youtube.com/shorts/pr7MJHNVL-w?si=F-mgcbA_qrkxDlwp)
-
+[Click For VIDEO OF ME COOKING THE OXTAIL STEW ](https://youtube.com/shorts/9Hqf2vEZNjs?si=N6wQSF9rYWZWExuw)
 
