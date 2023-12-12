@@ -42,15 +42,15 @@ export default function HeroSection() {
                 bg: 'blue.400',
                 zIndex: -1,
               }}>
-              Dog Recipes & Handy
+              Home Cooked Happiness:Simple Recipes,Great
             </Text>
             <br />
             <Text as={'span'} color={'blue.400'}>
-            Tools for Modern Pet Parents!
+            Tools ,and Reviews for Dedicated Pet Parents!
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-          Welcome to the perfect place for dog owners in their 20s and 30s!
+          Welcome to the perfect place for dog owners!
           Discover easy and nutritious recipes for your dog. Plus, we have plenty of helpful tools and resources to simplify your pet parenting journey!
           </Text>
           <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
