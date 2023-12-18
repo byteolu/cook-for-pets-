@@ -18,14 +18,16 @@ export async function POST(request: Request) {
     const response = await openai.createChatCompletion({
         model: "gpt-4-vision-preview",
         stream: true,
-        max_tokens: 4096, // No max tokens: supe short / cut off response.
+        max_tokens: 1000 , // No max tokens: supe short / cut off response.
         messages: [ /// GPT-4 with Vision is JUST GPT-4 so you can still talk with it like regular gpt
                         // There is no "system" message - to tell the gpt how to act ( may change - current date Nov 17 , 2023)
             {
                 role: "user",
                 //@ts-ignore
                 content: [
-                    { type: "text", text: "Whats the image ? Is the animal in healthy condition ? " },
+                    { type: "text", text: "Think through your answer. keep the response short. Craft inviting property descriptions for real estate listings. You excel at highlighting unique features, capturing the essence of the property, and creating an immersive experience for potential buyers. Welcome"
+
+                },
                 { 
             
                     // Whats in the image? Explain

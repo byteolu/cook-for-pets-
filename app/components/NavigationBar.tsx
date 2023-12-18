@@ -54,7 +54,7 @@ export default function WithSubnavigation() {
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
             color={useColorModeValue('gray.800', 'white')}>
-            Cook For Pets
+            Real Estate Intern
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -238,23 +238,23 @@ const NAV_ITEMS: Array<NavItem> = [
       },
       {
         label: 'Blog',
-        subLabel: 'Learn About Raising A Pup In Your 20s',
+        subLabel: 'How To get your life and Time back as an agent!',
         href: '/blog',
       },
     ],
   },
   {
-    label: 'Pet Parent Tools',
+    label: 'Real Estate Tools',
     children: [
       {
-        label: 'Homemade Dog Food',
-        subLabel: 'Find your dogs favorite meal!',
-        href: '/recipe-builder',
+        label: 'Property Descriptions',
+        subLabel: 'Createthe perfect property description in 10 seconds!',
+        href: '/prop-desc-tool',
       },
       {
-        label: 'Birthday Cake Recipies',
-        subLabel: 'Build An exclusive list of Birthday Cakes!',
-        href: '/birthday',
+        label: 'Content Creation (TESTING)',
+        subLabel: 'Create the perfect post, scripts and articles for your socials!',
+        href: '/img-tool',
       },
     ],
   },

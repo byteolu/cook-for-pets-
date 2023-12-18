@@ -121,7 +121,7 @@ export default function ImgCaption() {
           
           <div className='flex justify-center'>
             <button type="submit" className='p-2 bg-sky-600 rounded-md mb-4'>
-              Ask ChatGPT To Analyze Your Dog
+              Ask ChatGPT To Analyze Your Listing
             </button>
           </div> 
 

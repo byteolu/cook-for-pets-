@@ -78,7 +78,7 @@ export default function Footer() {
             Home
           </Box>
           <Box as="a" href={'/recipe-builder'}>
-            Recipe Builder
+            Productivity Tool
           </Box>
           <Box as="a" href={'/blog'}>
             Blog
@@ -99,7 +99,7 @@ export default function Footer() {
           spacing={4}
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
-          <Text>© Cook For Pets. All rights reserved</Text>
+          <Text>© Real Estate Intern. All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'#'}>
               <FaTwitter />

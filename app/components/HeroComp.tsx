@@ -42,27 +42,30 @@ export default function HeroSection() {
                 bg: 'blue.400',
                 zIndex: -1,
               }}>
-              Home Cooked Happiness:Simple Recipes,Great
+              From an address or task
             </Text>
             <br />
             <Text as={'span'} color={'blue.400'}>
-            Tools ,and Reviews for Dedicated Pet Parents!
+            To complete listing descriptions,and social media content.
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-          Welcome to the perfect place for dog owners!
-          Discover easy and nutritious recipes for your dog. Plus, we have plenty of helpful tools and resources to simplify your pet parenting journey!
+          Make Real Estate Work Easy with Our AI Helper! 
+          Just give us your notes or connect your project tools, 
+          and watch as we turn them into awesome property descriptions and social media content for you.
+          It is super simple - you focus on your real estate, and we will handle all the tricky writing and content creation. 
+          Save time and make your work fun with our smart AI friend
           </Text>
           <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
             <Button
               as = {"a"}
-              href="https://cook-for-pets.vercel.app/recipe-builder"  
+              href="/prop-desc-tool"  
               rounded={'full'}
               size={'lg'}
               fontWeight={'normal'}
               px={6}
               leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
-              Make Dog-Friendly Recipes
+              Create A Property Listening in seconds!
             </Button>
           </Stack>
         </Stack>
@@ -107,7 +110,7 @@ export default function HeroSection() {
               w={'100%'}
               h={'100%'}
               src={
-                '/img/Dog-food-mixed.png'
+                '/real-estate/agent-stressed-help.jpg'
               }
             />
           </Box>
